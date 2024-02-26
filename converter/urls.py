@@ -3,5 +3,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include("csv_convertor.urls")),
+    path('api/', include("csv_convertor.urls")),
 ]
